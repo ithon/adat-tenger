@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- https://github.com/mdn/beginner-html-site/blob/gh-pages/index.html -->
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Teszt oldal #940</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://app.megmerettetes.hu/favicon.ico" type="image/x-icon">
+
+    <style type="text/css">
+        body {
+            color: darkblue;
+            background: white;
+        }
+        label {
+            display: block;
+            font: 1rem 'Courier New', sans-serif;
+        }
+        input,
+        label {
+            margin: .4rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <form id="register-form" method="POST" autocomplete="off">
+                <label for="email">
+                    Email
+                    <span class="form-group__required-marker" aria-label="Kötelező">*</span>
+                </label>
+                <input
+                    id="email"
+                    type="email"
+                    class="form-control "
+                    name="email"
+                    value=""
+                    required
+                >
+
+                <button type="submit" class="btn btn--secondary">
+                    Regisztráció
+                </button>
+        </form>
+    </div>
+</body>
+</html>
